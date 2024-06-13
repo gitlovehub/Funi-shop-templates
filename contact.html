@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-awesome link here  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Material Symbols guide link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- Title bar here -->
+    <title>FPT Funi − Contact</title>
+    <!-- Output.css link here -->
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body class="text-body">
+    <header class="fixed z-10 w-full bg-white shadow-md">
+        <section class="container max-w-screen-xl m-auto">
+            <nav class="flex items-center justify-between py-4">
+                <a href="/" class="block w-36">
+                    <img src="assets/images/kia-logo.png" alt="">
+                </a>
+
+                <ul class="flex gap-8 text-xl font-medium">
+                    <li><a href="/" class="hover:text-amber-500">Home</a></li>
+                    <li><a href="shop.html" class="hover:text-amber-500">Shop</a></li>
+                    <li><a href="about.html" class="hover:text-amber-500">About</a></li>
+                    <li><a href="contact.html" class="hover:text-amber-500">Contact</a></li>
+                </ul>
+
+                <ul class="flex gap-4">
+                    <a href="" class="hover:text-amber-500">
+                        <span class="material-symbols-outlined text-3xl">person</span>
+                    </a>
+                    <a href="" class="hover:text-amber-500">
+                        <span class="material-symbols-outlined text-3xl">search</span>
+                    </a>
+                    <a href="" class="hover:text-amber-500">
+                        <span class="material-symbols-outlined text-3xl">favorite</span>
+                    </a>
+                    <a href="cart.html" class="hover:text-amber-500">
+                        <span class="material-symbols-outlined text-3xl">shopping_cart</span>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <section class="pt-[72px]">
+        <div class="h-600">
+            <img class="w-full h-full object-center" src="assets/images/contact-banner.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="my-16">
+        <div class="container max-w-screen-xl m-auto">
+            <div class="grid grid-cols-3 justify-items-center py-5">
+                <div>
+                    <div class="flex items-center gap-5">
+                        <span class="material-symbols-outlined text-5xl">location_on</span>
+                        <div>
+                            <h4 class="font-bold text-xl uppercase">Address</h4>
+                            <p class="text-gray-400 pt-1 font-medium">Số 88 Xuân Phương</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-5">
+                        <span class="material-symbols-outlined text-5xl">contacts</span>
+                        <div>
+                            <h4 class="font-bold text-xl uppercase">Contact Details</h4>
+                            <p class="text-gray-400 pt-1 font-medium">dvsvpoly.hn@poly.edu.vn</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex items-center gap-5">
+                        <span class="material-symbols-outlined text-5xl">public</span>
+                        <div>
+                            <h4 class="font-bold text-xl uppercase">Social Networks</h4>
+                            <ul class="text-gray-400 pt-1 font-medium flex items-center gap-6 text-2xl">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-youtube text-3xl"></i>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container max-w-screen-xl m-auto">
+        <div class="grid grid-cols-2 bg-gray-100">
+            <div class="w-full max-h-400"><img class="w-full h-full object-cover" src="assets/images/contact-post.png" alt=""></div>
+            <form action="" class="p-8">
+                <h5 class="uppercase font-medium">Contact</h5>
+                <h2 class="uppercase font-bold text-2xl pt-2">Connect with us now</h2>
+
+                <div class="flex justify-between pt-4">
+                    <div class="w-1/2 pr-2">
+                        <label for="firstName" class="block font-medium text-gray-700">First Name</label>
+                        <input type="text" id="firstName" name="firstName"
+                            class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    </div>
+                    <div class="w-1/2 pl-2">
+                        <label for="lastName" class="block font-medium text-gray-700">Last Name</label>
+                        <input type="text" id="lastName" name="lastName"
+                            class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    </div>
+                </div>
+                <div class="flex justify-between pt-2">
+                    <div class="w-1/2 pr-2">
+                        <label for="email" class="block font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    </div>
+                    <div class="w-1/2 pl-2">
+                        <label for="phone" class="block font-medium text-gray-700">Phone</label>
+                        <input type="tel" id="phone" name="phone"
+                            class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                    </div>
+                </div>
+                <div class="pt-2">
+                    <label for="message" class="block font-medium text-gray-700">Message</label>
+                    <input type="text" id="message" name="message"
+                        class="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:outline-none focus:border-blue-500 focus:ring focus:ring-blue-200">
+                </div>
+
+                <a href=""
+                    class="mt-4 px-4 py-2 flex items-center w-fit uppercase rounded font-bold text-amber-500 border-2 border-amber-500 hover:bg-amber-500 hover:text-white">
+                    <span class="material-symbols-outlined me-2">near_me</span>
+                    Send Infomation
+                </a>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-neutral-900 text-white">
+        <section class="container max-w-screen-xl m-auto">
+            <div class="grid grid-cols-4 justify-items-center gap-8 pt-16">
+                <div>
+                    <a href="/" class="block pb-4">
+                        <img src="assets/images/kia-logo-light.png" alt="">
+                    </a>
+                    <p>Cổng số 1, Tòa nhà FPT Polytechnic, 13 phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP
+                        Hà Nội</p>
+                </div>
+                <div>
+                    <h4 class="pb-4 font-semibold text-xl">Sitemap</h4>
+                    <ul class="flex flex-col gap-4 font-medium">
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Home</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Shop</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">About</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Contact</a>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="pb-4 font-semibold text-xl">Help</h4>
+                    <ul class="flex flex-col gap-4 font-medium">
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Payment Options</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Returns</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Privacy Policies</a>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="pb-4 font-semibold text-xl">Location</h4>
+                    <ul class="flex flex-col gap-4 font-medium">
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">support@vietnam.gov.vn</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">Số 5 Hồ Thiền Quang</a>
+                        <a href="" class="text-gray-300 hover:text-amber-500 hover:underline">44 Yết Kiêu</a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <p class="mt-16 py-6 text-center text-sm border-t border-gray-500">
+            Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
